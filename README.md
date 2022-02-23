@@ -1,11 +1,11 @@
 # Kairos Church Website
 
-This is the repository for kairos-church.com
+This is the repository for kairos-kc.com
 
 ## To-Do List
 
 * Add social media icons to top of site
-* Add social media icons to footer
+* Add social media icons to footer -- completed
 * Make the whole site more accessible to visitors
     * Create a get-in-touch component to place on each page
     * Place a map on the home page
