@@ -15,9 +15,15 @@ const IndexPage = () => {
                 Hours: 9:00 AM – 2:00 PM Monday – Thursday
             </div>
             <div className="contact__info-group">
-                <h3>Sunday Service</h3>
-                9:00 AM Prayer<br />
-                10:00 AM Worship
+                <table className="contact__times-list">
+                    <tbody>
+                        <tr><td> <h3>Sunday Service</h3></td></tr>
+                        <tr><td className="contact__times-label">Adult Sunday School</td><td className="contact__times-time">9:00 AM</td></tr>
+                        <tr><td className="contact__times-label">Worship</td><td className="contact__times-time">10:00 AM</td></tr>
+                        <tr><td> <h3>Wednesday Youth</h3></td></tr>
+                        <tr><td className="contact__times-label">Beacon</td><td className="contact__times-time">6:30 PM</td></tr>
+                    </tbody>
+                </table>
             </div>
             <div className="contact__info-group">
                 <h3>Address</h3>
